@@ -1,0 +1,12 @@
+{
+  "name": "grammar-coach",
+  "description": "English grammar coaching based on the prompts you write in Claude Code",
+  "owner": { "name": "PX1" },
+  "plugins": [
+    {
+      "name": "grammar",
+      "source": "./plugins/grammar",
+      "description": "Logs your prompts and reviews your English with /grammar:check"
+    }
+  ]
+}
