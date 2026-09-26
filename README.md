@@ -51,12 +51,19 @@ You can also just ask *"check my English"*.
 
 ### 🖼️ Example output
 
-| Original | Corrected | Why |
-|---|---|---|
-| yesterday I go to home | Yesterday I went home | Past simple after *yesterday*; *home* takes no *to* |
-| can you helps me | Can you help me | Base verb after a modal (*can*) |
+> ~~yesterday i deploy it to prod~~ → **yesterday I deployed it to prod**
+> **[Grammar]** Past simple after *yesterday*. **[Punctuation]** "i" → "I"
 
-> 💡 **Takeaway:** Watch your verb forms after modals and time expressions.
+> ~~it depends of the cluster~~ → **it depends on the cluster**
+> **[Grammar]** *depend* always takes *on*
+
+🔁 **Recurring patterns**: present tense used for past actions (2×)
+
+🌱 **Spanish-speaker trap**: *depend of* → *depend on* (from *depender de*)
+
+📊 **Summary**: clear and understandable. Next focus: past simple.
+
+Corrections are tagged as **Spelling**, **Grammar**, **Word Choice**, **Punctuation**, **Semantics** or **Expression**, and each review ends with something new to learn: a phrase of the day, a grammar tip, a "level up" rewrite or a Spanish-speaker trap.
 
 ## ⚙️ How it works
 
@@ -99,6 +106,10 @@ plugins/grammar/
 ```
 
 Then optionally delete your logs with `rm -r ~/.claude/grammar-coach`.
+
+## 🙏 Credits
+
+The review prompt is adapted from **english-coach** by tianmind-studio (MIT).
 
 ---
 
